@@ -88,10 +88,10 @@ document.addEventListener("alpine:init", () => {
                 this.getcart().then( result => {
                     const cartdata=result.data;
                     this.cartPizzas=cartdata.pizzas;
-                    this.cartTotal= cartdata.total.toFixed(2);
+                    this.cartTotal= cartdata.total;
                     this.calculateChange();
                     //this.cartPizzas = result.data.pizzas
-                    //alert(this.cartTotal);
+                    alert(this.cartTotal);
                     //alert(this.cartdata);
                     
                });
