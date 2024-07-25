@@ -1,0 +1,156 @@
+body {
+    background-color: #ff0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #aaa;
+}
+
+.pizzas-section {
+    margin: 20px 0;
+}
+
+.wrapper {
+    padding: 20px;
+    background-color: #d1ff5b;
+    border: 5px solid #00f;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.message {
+    font-size: 18px;
+    color: #C04000;
+    margin-bottom: 20px;
+}
+
+.featured-pizzas, .pizzas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pizzas-zerotwo {
+    background-color: #ff69b4;
+    border: 3px solid #00f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.pizzas-zerotwo img {
+    margin-right: 20px;
+}
+
+.pizzas-zerotwo h5, .pizzas-zerotwo span {
+    margin: 5px 0;
+}
+
+.pizzas-zerotwo .btn {
+    padding: 10px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.pizzas-zerotwo .btn:hover {
+    background-color: #aaa;
+}
+
+.featured-pizza-card {
+    background-color: #f4a;
+    border: 3px solid #00f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.featured-pizza-card img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.featured-pizza-card h5 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.featured-pizza-card span {
+    display: block;
+    margin: 5px 0;
+}
+
+.featured-pizza-card .btn {
+    padding: 10px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.featured-pizza-card .btn:hover {
+    background-color: #aaa;
+}
