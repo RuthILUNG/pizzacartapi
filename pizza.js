@@ -91,7 +91,7 @@ document.addEventListener("alpine:init", () => {
                     this.cartTotal= cartdata.total;
                     this.calculateChange();
                     //this.cartPizzas = result.data.pizzas
-                    alert(this.cartTotal);
+                    //alert(this.cartTotal);
                     //alert(this.cartdata);
                     
                });
